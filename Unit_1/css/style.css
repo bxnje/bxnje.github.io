@@ -3,5 +3,6 @@ body {
 }
 
 h1, p {
-	color: darkgrey;
+	font-family: helvetica;
+	color: teal;
 }
