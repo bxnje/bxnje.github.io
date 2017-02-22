@@ -1,0 +1,63 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+h1 {
+	text-align: center;
+	font: 400 14px/1 Montserrat,sans-serif;
+    letter-spacing: 3px;
+    margin: 0 0 10px;
+    text-transform: uppercase
+}
+
+body {
+	text-align: center;
+}
+
+p{
+	color: #909090;
+	font-size: 12px;
+
+}
+
+#about{
+	text-align: left;
+	margin: 0 auto;
+	padding: 0 1%;
+}
+
+footer{
+	padding: 20px;
+}
+
+.house {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.links {
+	float: right;
+	height: 25px;
+}
+
+p a {
+	float: left;
+	text-decoration: none;
+	color: #909090
+}
+
+#slogan {
+	color: rgba(200,200,200,20);
+}
+
+nav a {
+	color: #909090;
+	font-size: 14px;
+	text-decoration: none;
+	margin-right: 10px;
+
+}
+
+
+
