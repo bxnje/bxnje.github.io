@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+h1 {
+	text-align: center;
+	font: 400 16px/1 Montserrat,sans-serif;
+    letter-spacing: 3px;
+    margin: 0 0 10px;
+    text-transform: uppercase
+}
+
+body {
+	text-align: center;
+	font-size: 16px; 
+	font-family: "Crimson Text", Serif
+	}
+
+section p{
+	color: #909090;
+	line-height: 1.5em;
+	width: 30em;
+	margin: auto;
+
+}
+
+footer{
+	padding: 20px;
+}
+
+.house {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.links {
+	float: right;
+	height: 23px;
+}
+
+p a {
+	float: left;
+	text-decoration: none;
+	color: #909090
+}
+
+nav a {
+	font-family: "Raleway";
+	color: #909090;
+	text-decoration: none;
+	margin-right: 10px;
+	font-weight: 300;
+	font-size: 12px;
+	letter-spacing: 1px;
+
+}
+
+hr{
+	border: none;
+	height: 3px;
+	background-color: #909090;
+	width: 2em;
+	margin: 1em auto;
+	}
+
+h2{
+	font-family: sans-serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+footer p{
+	color: #909090;
+}
+
+#two_column{
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px
+}
+
+#left{
+	background-color: #E582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%
+}
+
+#right {
+background-color: #E55B88;
+border: 1px solid black;
+padding: 20px;
+float: right;
+width: 62%;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+
+section{
+	padding: 5px;
+}
+
+
+
