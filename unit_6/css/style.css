@@ -19,7 +19,6 @@ body {
 	font-size: 16px; 
 	font-family: "Crimson Text", Serif
 	}
-
 section p{
 	color: #909090;
 	line-height: 1.5em;
@@ -77,28 +76,6 @@ footer p{
 	color: #909090;
 }
 
-#two_column{
-	background-color: #ffb7cf;
-	border: 1px black solid;
-	padding: 20px
-}
-
-#left{
-	background-color: #E582a2;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%
-}
-
-#right {
-background-color: #E55B88;
-border: 1px solid black;
-padding: 20px;
-float: right;
-width: 62%;
-
-}
 
 .clearfix:after {
 	visibility: hidden;
@@ -109,11 +86,22 @@ width: 62%;
 	height: 0;
 }
 
-
-
-section{
-	padding: 5px;
+a:hover{
+	color: #ffd600;
 }
 
+#wrapper{
+	width: 1080px;
+	background-color: purple;
+}
+
+.column {
+	float: right;
+	width: 260px;
+	height: 300px;
+	padding: 80px;
+	margin: 0 auto;
+
+}
 
 
