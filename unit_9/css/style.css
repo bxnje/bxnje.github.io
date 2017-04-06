@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+h1 {
+	text-align: center;
+	font: 400 16px/1 Montserrat,sans-serif;
+    letter-spacing: 3px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+h4 {
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	font-weight: 600;
+	padding-bottom: 35px;
+
+}
+
+body {
+	text-align: center;
+	font-size: 16px; 
+	font-family: "Crimson Text", Serif;
+	}
+
+section p{
+	color: #909090;
+	line-height: 1.5em;
+	width: 30em;
+	margin: auto;
+	font-size: 1em;
+
+}
+
+footer{
+	padding: 20px;
+}
+
+.house {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+#hero {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.links {
+	float: right;
+	height: 23px;
+}
+
+p a {
+	float: left;
+	text-decoration: none;
+	color: #909090;
+}
+
+nav a {
+	font-family: "Raleway";
+	color: #909090;
+	text-decoration: none;
+	margin-right: 20px;
+	font-weight: 300;
+	font-size: 12px;
+	letter-spacing: 1px;
+
+}
+
+hr{
+	border: none;
+	height: 3px;
+	background-color: #909090;
+	width: 2em;
+	margin: 1em auto;
+	}
+
+h2{
+	font-family: sans-serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+footer p{
+	color: #909090;
+}
+
+a:hover{
+	color: #ffd600;
+
+}
+
+div{
+	float: left;
+	padding: 55px;
+	width: 42%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.clearfix:after{
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+
+}
+
+p{
+	color: #909090;
+
+}
+
+footer{
+	padding: 10px;
+	clear: both;
+}
+
+div img{
+	width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+div {
+float: none;
+width: auto;
+
+}
+
+p{
+
+font-size: 14px;
+
+}
+
+section p {
+	font-size: 14px;
+	width: auto;
+}
+
+#hero{
+	width: 100%;
+}
+
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480) {
+div {
+font-size: 13px;
+width: auto;
+}
+
+section p {
+	font-size: 14px;
+	width: auto;
+}
+
+}
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+@media only screen and (max-width: 1390px){
+	div{
+	float: none;
+	width: 0 auto;
+
+	}
+}
